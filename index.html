@@ -4,18 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1 style="text-align: center;">
-        おはよう
-        <ruby>
-            世界<rt>せかい</rt>
-        </ruby>
-        ！
-    </h1>
+<body id="home">
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#home">
+            <img src="danie.png">
+        </a>
+        <a href="#projects">Projects</a>
+    </nav>
 
-    <a href="https://littlejoebuztdm.github.io/web-portfolio/MagicBox/index.html">Magic Box</a>
-    <br>
-    <a href="https://littlejoebuztdm.github.io/web-portfolio/htmlproject/htmlproject.html">HTML Project</a>
+    <header class="hero">
+        <h1>
+            おはよう
+            <ruby>
+                世界<rt>せかい</rt>
+            </ruby>
+            !
+        </h1>
+        <img src="pfp.png">
+        <p>This portfolio is a work in progress, please be patient while this is being made. Thank you.</p>
+    </header>
+
+    <section id="projects">
+        <h2>Website Projects</h2>
+        <div class="project-list">
+            <a class="project-card" href="https://littlejoebuztdm.github.io/web-portfolio/htmlproject/htmlproject.html">HTML Project</a>
+            <a class="project-card" href="https://littlejoebuztdm.github.io/web-portfolio/MagicBox/index.html">Magic Box</a>
+        </div>
+
+        <h2>FTL Projects</h2>
+        <div class="project-list">
+            <a class="project-card" href="https://secreftls.com/collections/the-revenge-of-my-youth-re-life-with-an-angelic-girl/the-revenge-of-my-youth-re-life-with-an-angelic-girl-volume-1">Seishun Revenge V1</a>
+            <a class="project-card" href="https://secreftls.com/collections/the-revenge-of-my-youth-re-life-with-an-angelic-girl/the-revenge-of-my-youth-re-life-with-an-angelic-girl-volume-3">Seishun Revenge V3</a>
+            <a class="project-card" href="https://secreftls.com/collections/the-revenge-of-my-youth-re-life-with-an-angelic-girl/the-revenge-of-my-youth-re-life-with-an-angelic-girl-volume-5">Seishun Revenge V5</a>
+            <a class="project-card" href="https://secreftls.com/collections/blue-box/blue-box-interlude">Blue Box Interlude</a>
+            <a class="project-card" href="https://secreftls.com/collections/redo-romance-route-with-the-childhood-friend-who-became-my-wife/redo-romance-route-with-the-childhood-friend-who-became-my-wife">Redo Romance Route</a>
+            <a class="project-card" href="https://secreftls.com/collections/alya-sometimes-hides-her-feelings-in-russian/alya-sometimes-hides-her-feelings-in-russian-volume-12">Roshidere V12</a>
+        </div>
+    </section>
+    
+    <svg class="wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <path d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,100 L0,100 Z" fill="#d71414"/>
+    </svg>
+
+    <section id="about" class="about">
+        <div>
+            <h2>About Me</h2>
+            <p>Daniel "Danie" J., currently majoring in informatics (enrolled 2024).</p>
+            <br>
+            <p>Editor for Secre Translations.</p>
+            <br>
+            <p>Big fan of all things Japan (anime, manga, light novels).</p>
+            <br>
+            <a href="https://myanimelist.net/profile/LittleJoebuzTDM" class="btn">MyAnimeList</a>
+        </div>
+        <img src="me.png">
+    </section>
+
+    <footer id="contact" class="contact">
+        <p>danieljuliot8@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,97 @@
+:root{
+    --red: #d71414;
+    --pink: #fdf3f3;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: #222;
+}
+.navbar a.active {
+    color: var(--red);
+}
+.navbar img{
+    height: 40px;
+    display: block;
+}
+
+.hero{
+    background: var(--red);
+    color: white;
+    text-align: center;
+    padding: 50px 10px;
+}
+.hero img {
+    max-width: 300px; border-radius: 999px;
+}
+
+section{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#about{background-color: varr(--pink);}
+.about{
+    background: var(--red);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-align: left;
+}
+.about img { max-width: 300px; border-radius: 20px; }
+.about a{
+    text-decoration: none;
+    color: white;
+}
+
+.project-list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    padding: 40px 30px;
+    border: 2px solid var(--red);
+    border-radius: 16px;
+    color: var(--red);
+    text-decoration: none;
+}
+
+.wave { display: block; width: 100%; height: 60px; }
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: #8f0d0d;
+    color: white;
+    text-decoration: none;
+}
+
+.contact{
+    display: flex;
+    color:var(--red);
+    gap: 10px;
+    justify-content: center;
+}
